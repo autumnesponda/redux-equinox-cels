@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/redux-equinox-cels/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
