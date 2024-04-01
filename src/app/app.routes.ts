@@ -19,4 +19,5 @@ export const routes: Routes = [
     { path: 'gallery/jojos', component: JojoGalleryComponent},
     { path: 'gallery/fma', component: FmaGalleryComponent},
     { path: 'gallery/other', component: OtherGalleryComponent},
+    { path: '**', redirectTo: ''}
 ];
