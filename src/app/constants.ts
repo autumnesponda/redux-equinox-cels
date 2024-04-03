@@ -1,5 +1,7 @@
 export abstract class Constants {
-    static MEDIA_PREFIX = 'assets/media/';
+    static HEADERS_PREFIX = 'assets/headers/';
+    static GALLERY_IMAGES_PREFIX = 'assets/galleries/';
+    static CAROUSEL_IMAGES_PREFIX = 'assets/homecarousel/carousel-';
 
     static EVA_FILENAMES: string[][] =
         [

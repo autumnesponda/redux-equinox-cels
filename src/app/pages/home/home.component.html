@@ -1,5 +1,5 @@
 <div class="text-center bg-image pb-3"
-    style="background-image: url('assets/headers/mainheader.webp'); height: 350px;">
+    style="background-image: url('assets/headers/mainheader.webp'); height: 300px;">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="text-white">
@@ -10,7 +10,7 @@
 </div>
 
 <section class="pt-2 px-2">
-    <figure class="fw-lighter py-5 text-center">
+    <figure class="fw-lighter py-5 mb-0 text-center">
         <blockquote class="fs-2">
             <em>Animation can explain whatever the mind of man can conceive.</em>
         </blockquote>
@@ -20,8 +20,16 @@
     </figure>
 </section>
 
-<section class="pb-5">
-    <!-- TODO: carousel -->
+<section>
+    <div class="embla" emblaCarousel [options]="options" [plugins]="plugins">
+        <div class="embla__container">
+            @for (imageSrc of carouselImages; track imageSrc) {
+                <div class="embla__slide">
+                    <img src="{{ imageSrc }}" height="400px" alt="">
+                </div>
+            }
+        </div>
+      </div>
 </section>
 
 <section class="bg-dark p-5">
