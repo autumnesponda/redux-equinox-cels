@@ -36,7 +36,6 @@ export class HomeComponent implements AfterViewInit {
     speed: 0.75,
     startDelay: 0,
     stopOnInteraction: false,
-    stopOnMouseEnter: true
   })]
 
   ngAfterViewInit() {
