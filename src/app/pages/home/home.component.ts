@@ -16,12 +16,12 @@ import { Constants } from '../../constants';
 export class HomeComponent implements AfterViewInit {
 
   carouselImages = [
-    Constants.CAROUSEL_IMAGES_PREFIX + "EOE_00_16.jpg",
-    Constants.CAROUSEL_IMAGES_PREFIX + "layout01.jpg",
-    Constants.CAROUSEL_IMAGES_PREFIX + "mobile_suit_victory_gundam_01.jpg",
-    Constants.CAROUSEL_IMAGES_PREFIX + "EOE_03_combined.jpg",
-    Constants.CAROUSEL_IMAGES_PREFIX + "nardo01.jpg",
-    Constants.CAROUSEL_IMAGES_PREFIX + "reidedcel.jpg"
+    Constants.CAROUSEL_IMAGES_PREFIX + 'EOE_00_16.jpg',
+    Constants.CAROUSEL_IMAGES_PREFIX + 'layout01.jpg',
+    Constants.CAROUSEL_IMAGES_PREFIX + 'mobile_suit_victory_gundam_01.jpg',
+    Constants.CAROUSEL_IMAGES_PREFIX + 'EOE_03_combined.jpg',
+    Constants.CAROUSEL_IMAGES_PREFIX + 'nardo01.jpg',
+    Constants.CAROUSEL_IMAGES_PREFIX + 'reidedcel.jpg'
   ];
   
   @ViewChild(EmblaCarouselDirective) emblaRef!: EmblaCarouselDirective;
@@ -29,7 +29,7 @@ export class HomeComponent implements AfterViewInit {
   emblaApi?: EmblaCarouselType;
 
   options: Partial<EmblaOptionsType> = { 
-    align: "center",
+    align: 'center',
   };
   
   plugins = [ Autoscroll({ 

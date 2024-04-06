@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './other-gallery.component.html',
-  styles: ``
+  styles: ''
 })
 export class OtherGalleryComponent {
 

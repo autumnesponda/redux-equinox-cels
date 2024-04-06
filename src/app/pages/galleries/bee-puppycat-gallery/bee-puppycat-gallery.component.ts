@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './bee-puppycat-gallery.component.html',
-  styles: ``
+  styles: ''
 })
 export class BeePuppycatGalleryComponent {
   

@@ -9,7 +9,7 @@ import { Constants } from '../../../constants';
     GalleryTeaserCardComponent
   ],
   templateUrl: './gallery-home.component.html',
-  styles: ``
+  styles: ''
 })
 export class GalleryHomeComponent {
   headerUrl = Constants.HEADERS_PREFIX + 'galleryheader_new.webp';

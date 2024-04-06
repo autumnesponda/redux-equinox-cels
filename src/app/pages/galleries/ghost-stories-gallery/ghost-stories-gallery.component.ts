@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
+import { GalleryPageComponent } from '../../../components/gallery-page/gallery-page.component';
 
 @Component({
   selector: 'app-ghost-stories-gallery',
   standalone: true,
-  imports: [],
+  imports: [ GalleryPageComponent ],
   templateUrl: './ghost-stories-gallery.component.html',
-  styles: ``
+  styles: ''
 })
 export class GhostStoriesGalleryComponent {
-
+  
 }

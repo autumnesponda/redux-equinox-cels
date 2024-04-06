@@ -7,7 +7,7 @@ import { Constants } from '../../../constants';
   standalone: true,
   imports: [ GalleryPageComponent ],
   templateUrl: './fma-gallery.component.html',
-  styles: ``
+  styles: ''
 })
 export class FmaGalleryComponent {
   imageFilenames = Constants.FMA_FILENAMES;

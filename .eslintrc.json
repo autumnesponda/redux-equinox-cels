@@ -31,7 +31,9 @@
             "style": "kebab-case"
           }
         ],
-        "semi": ["error", "always"]
+        "semi": ["error", "always"],
+        "indent": ["error", 2],
+        "quotes": ["error", "single"]
       }
     },
     {

@@ -10,14 +10,14 @@ import { OtherGalleryComponent } from './pages/galleries/other-gallery/other-gal
 import { BeePuppycatGalleryComponent } from './pages/galleries/bee-puppycat-gallery/bee-puppycat-gallery.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'gallery', component: GalleryHomeComponent },
-    { path: 'gallery/bee-puppycat', component: BeePuppycatGalleryComponent},
-    { path: 'gallery/evangelion', component: EvaGalleryComponent},
-    { path: 'gallery/gundam', component: GundamGalleryComponent},
-    { path: 'gallery/ghoststories', component: GhostStoriesGalleryComponent},
-    { path: 'gallery/jojos', component: JojoGalleryComponent},
-    { path: 'gallery/fma', component: FmaGalleryComponent},
-    { path: 'gallery/other', component: OtherGalleryComponent},
-    { path: '**', redirectTo: ''}
+  { path: '', component: HomeComponent },
+  { path: 'gallery', component: GalleryHomeComponent },
+  { path: 'gallery/bee-puppycat', component: BeePuppycatGalleryComponent},
+  { path: 'gallery/evangelion', component: EvaGalleryComponent},
+  { path: 'gallery/gundam', component: GundamGalleryComponent},
+  { path: 'gallery/ghoststories', component: GhostStoriesGalleryComponent},
+  { path: 'gallery/jojos', component: JojoGalleryComponent},
+  { path: 'gallery/fma', component: FmaGalleryComponent},
+  { path: 'gallery/other', component: OtherGalleryComponent},
+  { path: '**', redirectTo: ''}
 ];
