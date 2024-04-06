@@ -12,7 +12,7 @@ import { Constants } from '../../../constants';
   styles: ``
 })
 export class GalleryHomeComponent {
-  headerUrl = Constants.HEADERS_PREFIX + 'galleryheader_new.webp'
+  headerUrl = Constants.HEADERS_PREFIX + 'galleryheader_new.webp';
 
   galleryCards = [
     {
@@ -57,5 +57,5 @@ export class GalleryHomeComponent {
       subtitle: 'Miscellaneous Animated Works',
       galleryPageLink: 'other',
     },
-  ]
+  ];
 }

@@ -1,0 +1,32 @@
+<div class="text-center bg-image pb-3"
+     style="background-image: url('{{headerUrl}}');
+     height: 250px;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <div class="text-light">
+                <h1 class="display-4 fw-lightest">{{title}}</h1>
+                <small class="lead fst-italic">
+                    {{subtitle}}
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="p-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @for (image of albums; track $index) {
+            <div class="col h-100">
+                @if (image.overlay) {
+                    <div class="w-100 h-100 overlay-parent" (click)="open($index)">
+                        <img class="w-100 h-100"            [src]="image.src" alt=""/>
+                        <img class="w-100 h-100 overlay"    [src]="image.overlay" alt=""/>
+                    </div>
+                }
+                @else {
+                    <img class="w-100 h-100" style="object-fit: cover; cursor: pointer;" [src]="image.src" (click)="open($index)" alt=""/>
+                }
+            </div>
+        }
+    </div>
+</section>

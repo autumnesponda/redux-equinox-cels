@@ -24,22 +24,22 @@ export class HomeComponent implements AfterViewInit {
     Constants.CAROUSEL_IMAGES_PREFIX + "reidedcel.jpg"
   ];
   
-  @ViewChild(EmblaCarouselDirective) emblaRef!: EmblaCarouselDirective
+  @ViewChild(EmblaCarouselDirective) emblaRef!: EmblaCarouselDirective;
 
-  emblaApi?: EmblaCarouselType
+  emblaApi?: EmblaCarouselType;
 
   options: Partial<EmblaOptionsType> = { 
     align: "center",
-  }
+  };
   
   plugins = [ Autoscroll({ 
     speed: 0.75,
     startDelay: 0,
     stopOnInteraction: false,
-  })]
+  })];
 
   ngAfterViewInit() {
-    this.emblaApi = this.emblaRef.emblaApi
+    this.emblaApi = this.emblaRef.emblaApi;
   }
 
 }

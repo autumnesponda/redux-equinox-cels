@@ -14,8 +14,8 @@ import { MdbRippleModule } from 'mdb-angular-ui-kit/ripple';
   styleUrl: './gallery-teaser-card.component.sass'
 })
 export class GalleryTeaserCardComponent {
-  @Input() imageUrl!: string
-  @Input() title!: string
-  @Input() subtitle?: string
-  @Input() galleryPageLink!: string
+  @Input() imageUrl!: string;
+  @Input() title!: string;
+  @Input() subtitle?: string;
+  @Input() galleryPageLink!: string;
 }

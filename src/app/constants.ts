@@ -31,7 +31,7 @@ export abstract class Constants {
 
     static JOJO_FILENAMES =
         [
-            'jojo/CHARIOTCEL00108066.png|/jojo/CHARIOTMASTER00108150.png',
+            'jojo/CHARIOTCEL00108066.png|jojo/CHARIOTMASTER00108150.png',
 
             'jojo/fullcel.jpeg',
             'jojo/layout01.jpeg',
@@ -52,7 +52,7 @@ export abstract class Constants {
             'jojo/layout03.jpg',
             'jojo/correctionC2.jpg',
             'jojo/correctionC3.jpg',
-        ]
+        ];
 
     static JOJO_CAPTIONS =
         [
@@ -72,20 +72,20 @@ export abstract class Constants {
             '',
             '',
             'Another correction genga signed by Kitakubo-san: "A little more tilt/slant for the hat is OK"',
-        ]
+        ];
 
     static GUNDAM_FILENAMES =
         [
-            'other/newCenturyGundamX_%20A21E.png',
-            'other/newCenturyGundamX_%20A21E_douga.png',
-            'other/ggundamcel.png|/Other/ggundammaster.png',
-            'other/mobile_suit_victory_gundam_01.png',
-            'other/RMS-099%20Rick%20Dias.jpg',
-            'other/gundam0001cel.jpg',
-            'other/gundam0001douga.jpg',
-            'other/gundam000cel.jpg',
-            'other/gundam000douga.jpg'
-        ]
+            'gundam/newCenturyGundamX_%20A21E.png',
+            'gundam/newCenturyGundamX_%20A21E_douga.png',
+            'gundam/ggundamcel.png|gundam/ggundammaster.png',
+            'gundam/mobile_suit_victory_gundam_01.png',
+            'gundam/RMS-099%20Rick%20Dias.jpg',
+            'gundam/gundam0001cel.jpg',
+            'gundam/gundam0001douga.jpg',
+            'gundam/gundam000cel.jpg',
+            'gundam/gundam000douga.jpg'
+        ];
 
     static GUNDAM_CAPTIONS =
         [
@@ -98,16 +98,16 @@ export abstract class Constants {
             'Douga of the previous cel',
             'Cel A-4, Cut 96 of NRX-0013-CB Gundam Virsago Chest Break from After War Gundam X Ep. 36 "The Next War is the War We Wanted"',
             'Douga of the previous cel'
-        ]
+        ];
 
     static GHOSTSTORIES_FILENAMES =
         [
-            'other/ghost_stories_00.jpg|/Other/ghost_stories_00_master.png',
-            'other/ghost_stories_02.jpg|/Other/ghost_stories_02_master.png',
-            'other/ghost%20stories%2003.jpg',
-            'other/GHOST_STORIES_01_00.png',
-            'other/GHOST_STORIES_01_01.png'
-        ]
+            'ghoststories/ghost_stories_00.jpg|ghoststories/ghost_stories_00_master.png',
+            'ghoststories/ghost_stories_02.jpg|ghoststories/ghost_stories_02_master.png',
+            'ghoststories/ghost%20stories%2003.jpg',
+            'ghoststories/GHOST_STORIES_01_00.png',
+            'ghoststories/GHOST_STORIES_01_01.png'
+        ];
 
     static GHOSTSTORIES_CAPTIONS =
         [
@@ -116,19 +116,19 @@ export abstract class Constants {
             'Douga for the sweat drop, marking its starting and final locations',
             '',
             ''
-        ]
+        ];
 
     static FMA_FILENAMES =
         [
-            'other/ed_fma.gif',
-            'other/fma00_01.jpg',
-            'other/fma00_00.jpg',
-            'other/fma00_02.jpg',
-            'other/dietlinde_douga.jpg|/Other/dietlinde_master.png',
-            'other/EPSON010.jpg',
-            'other/fma01_00.jpg',
-            'other/fma_douga_animated_00.gif'
-        ]
+            'fullmetal/ed_fma.gif',
+            'fullmetal/fma00_01.jpg',
+            'fullmetal/fma00_00.jpg',
+            'fullmetal/fma00_02.jpg',
+            'fullmetal/dietlinde_douga.jpg|fullmetal/dietlinde_master.png',
+            'fullmetal/EPSON010.jpg',
+            'fullmetal/fma01_00.jpg',
+            'fullmetal/fma_douga_animated_00.gif'
+        ];
 
 
     static FMA_CAPTIONS =
@@ -141,7 +141,7 @@ export abstract class Constants {
             'Correction genga from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"',
             '',
             'A set of douga featuring Rudolf Hess from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"'
-        ]
+        ];
 
     static OTHER_FILENAMES =
         [
@@ -151,10 +151,10 @@ export abstract class Constants {
             'other/nardo02.png',
             'other/nardo01.png',
             'other/nardo00.png',
-            'other/KLK_ep10_front.jpg|/Other/KLK_ep10_master.png',
+            'other/KLK_ep10_front.jpg|other/KLK_ep10_master.png',
             'other/Courage_storyboard_70.png',
             'other/Courage_storyboard_87.png'
-        ]
+        ];
 
     static OTHER_CAPTIONS =
         [
@@ -167,5 +167,5 @@ export abstract class Constants {
             'A-1 Douga of Nonon Jakuzure from the final scene of Kill La Kill Ep. 10: "I Want to Know More about You"',
             'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
             'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
-        ]
+        ];
 }
