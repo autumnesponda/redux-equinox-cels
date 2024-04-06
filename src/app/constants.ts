@@ -143,17 +143,43 @@ export abstract class Constants {
       'A set of douga featuring Rudolf Hess from "Fullmetal Alchemist the Movie: Conqueror of Shamballa"'
     ];
 
+  static BEEPUPPYCAT_FILENAMES =
+    [
+      'beepuppycat/pilot_00.png',
+      'beepuppycat/pilot_01.png',
+      'beepuppycat/pilot_02.jpeg',
+      'beepuppycat/pilot_03.png',
+      'beepuppycat/pilot_04.jpeg',
+      'beepuppycat/pilot_05.jpeg',
+      'beepuppycat/E04_00.jpeg',
+      'beepuppycat/E06_00.png',
+      'beepuppycat/E06_01.jpeg',
+    ];
+
+  static BEEPUPPYCAT_CAPTIONS =
+    [
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+    ];
+
   static OTHER_FILENAMES =
     [
       'other/pompoko.png',
       'other/poopycat.jpg',
-      'other/Lassie_01.png',
       'other/nardo02.png',
       'other/nardo01.png',
       'other/nardo00.png',
       'other/KLK_ep10_front.jpg|other/KLK_ep10_master.png',
+      'other/bravestwarriors_s02e05.png',
       'other/Courage_storyboard_70.png',
-      'other/Courage_storyboard_87.png'
+      'other/Courage_storyboard_87.png',
     ];
 
   static OTHER_CAPTIONS =
@@ -163,8 +189,8 @@ export abstract class Constants {
       '',
       '',
       '',
-      '',
       'A-1 Douga of Nonon Jakuzure from the final scene of Kill La Kill Ep. 10: "I Want to Know More about You"',
+      '',
       'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
       'Storyboard from "The Fog of Courage", a 2013 7-minute CGI pilot for a possible revival of Courage the Cowardly Dog. Signed by John R. Dilworth, the director and executive producer of the original series as well as this pilot',
     ];
